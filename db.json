@@ -1,0 +1,524 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Post",
+      "content": "This is my first post",
+      "userId": 1
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "The Pragmatic Programmer: From Journeyman to Master",
+      "author": "Andy Hunt",
+      "rating": 5,
+      "price": 71,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510472/Assignment-2/IMG/Book_1_k1bjrz.png",
+      "isFavourite": true,
+      "publishDate": "October 20, 1999"
+    },
+    {
+      "id": 2,
+      "name": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "rating": 5,
+      "price": 66,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510473/Assignment-2/IMG/Book_2_zcruk9.png",
+      "isFavourite": true,
+      "publishDate": "January 1, 2007"
+    },
+    {
+      "id": 3,
+      "name": "Code Complete",
+      "author": "Steve McConnell",
+      "rating": 2,
+      "price": 62,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510472/Assignment-2/IMG/Book_3_it672v.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1993"
+    },
+    {
+      "id": 4,
+      "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "author": "Erich Gamma",
+      "rating": 4,
+      "price": 18,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510473/Assignment-2/IMG/Book_4_j1yknc.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1994"
+    },
+    {
+      "id": 5,
+      "name": "Refactoring: Improving the Design of Existing Code",
+      "author": "Martin Fowler",
+      "rating": 4,
+      "price": 36,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510473/Assignment-2/IMG/Book_5_fdsuvj.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1999"
+    },
+    {
+      "id": 6,
+      "name": "The Mythical Man-Month: Essays on Software Engineering",
+      "author": "Frederick P. Brooks Jr.",
+      "rating": 2,
+      "price": 26,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510473/Assignment-2/IMG/Book_6_zzxxyr.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1975"
+    },
+    {
+      "id": 7,
+      "name": "Structure and Interpretation of Computer Programs",
+      "author": "Harold Abelson",
+      "rating": 4,
+      "price": 92,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510473/Assignment-2/IMG/Book_7_rlts8a.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1984"
+    },
+    {
+      "id": 8,
+      "name": "Head First Design Patterns",
+      "author": "Eric Freeman",
+      "rating": 5,
+      "price": 62,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510473/Assignment-2/IMG/Book_8_r4a20n.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 2004"
+    },
+    {
+      "id": 9,
+      "name": "The Clean Coder: A Code of Conduct for Professional Programmers",
+      "author": "Robert C. Martin",
+      "rating": 4,
+      "price": 78,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510475/Assignment-2/IMG/Book_9_w3vpg5.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 2011"
+    },
+    {
+      "id": 10,
+      "name": "Introduction to Algorithms",
+      "author": "Charles E. Leiserson",
+      "rating": 4,
+      "price": 64,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510475/Assignment-2/IMG/Book_10_yh7mn8.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1989"
+    },
+    {
+      "id": 11,
+      "name": "The C Programming Language",
+      "author": "Brian W. Kernighan",
+      "rating": 2,
+      "price": 11,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510475/Assignment-2/IMG/Book_11_zzqlta.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1978"
+    },
+    {
+      "id": 12,
+      "name": "JavaScript: The Good Parts",
+      "author": "Douglas Crockford",
+      "rating": 4,
+      "price": 59,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510474/Assignment-2/IMG/Book_12_rdlaia.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 2008"
+    },
+    {
+      "id": 13,
+      "name": "Code: The Hidden Language of Computer Hardware and Software",
+      "author": "Charles Petzold",
+      "rating": 3,
+      "price": 57,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510475/Assignment-2/IMG/Book_13_pfyyne.png",
+      "isFavourite": false,
+      "publishDate": "September 29, 1999"
+    },
+    {
+      "id": 14,
+      "name": "Working Effectively with Legacy Code",
+      "author": "Michael C. Feathers",
+      "rating": 5,
+      "price": 45,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510475/Assignment-2/IMG/Book_14_pfvt4a.png",
+      "isFavourite": false,
+      "publishDate": "September 1, 2004"
+    },
+    {
+      "id": 15,
+      "name": "Designing Data-Intensive Applications",
+      "author": "Martin Kleppmann",
+      "rating": 4,
+      "price": 33,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510475/Assignment-2/IMG/Book_15_uh8n3f.png",
+      "isFavourite": false,
+      "publishDate": "April 25, 2015"
+    },
+    {
+      "id": 16,
+      "name": "Effective Java",
+      "author": "Joshua Bloch",
+      "rating": 4,
+      "price": 29,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510476/Assignment-2/IMG/Book_16_mhv4kz.png",
+      "isFavourite": false,
+      "publishDate": "June 5, 2001"
+    },
+    {
+      "id": 17,
+      "name": "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+      "author": "Eric Evans",
+      "rating": 4,
+      "price": 29,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510476/Assignment-2/IMG/Book_17_qqahqx.png",
+      "isFavourite": false,
+      "publishDate": "August 20, 2003"
+    },
+    {
+      "id": 18,
+      "name": "Clean Architecture",
+      "author": "Robert C. Martin",
+      "rating": 5,
+      "price": 41,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510477/Assignment-2/IMG/Book_18_qzdqbw.png",
+      "isFavourite": false,
+      "publishDate": "September 1, 2017"
+    },
+    {
+      "id": 19,
+      "name": "Programming Pearls",
+      "author": "Jon L. Bentley",
+      "rating": 5,
+      "price": 12,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510479/Assignment-2/IMG/Book_19_ifd0w9.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1986"
+    },
+    {
+      "id": 20,
+      "name": "Cracking the Coding Interview: 150 Programming Questions and Solutions",
+      "author": "Gayle Laakmann McDowell",
+      "rating": 5,
+      "price": 15,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510476/Assignment-2/IMG/Book_20_hyglpa.png",
+      "isFavourite": false,
+      "publishDate": "October 14, 2008"
+    },
+    {
+      "id": 21,
+      "name": "Test-Driven Development: By Example",
+      "author": "Kent Beck",
+      "rating": 5,
+      "price": 47,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510477/Assignment-2/IMG/Book_21_nb2nqs.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 2002"
+    },
+    {
+      "id": 22,
+      "name": "Grokking Algorithms An Illustrated Guide For Programmers and Other Curious People",
+      "author": "Aditya Y. Bhargava",
+      "rating": 3,
+      "price": 39,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510478/Assignment-2/IMG/Book_22_f3hwtf.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 2015"
+    },
+    {
+      "id": 23,
+      "name": "Patterns of Enterprise Application Architecture",
+      "author": "Martin Fowler",
+      "rating": 4,
+      "price": 97,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510478/Assignment-2/IMG/Book_23_tstolh.png",
+      "isFavourite": false,
+      "publishDate": "November 5, 2002"
+    },
+    {
+      "id": 24,
+      "name": "Eloquent JavaScript: A Modern Introduction to Programming",
+      "author": "Marijn Haverbeke",
+      "rating": 4,
+      "price": 40,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510478/Assignment-2/IMG/Book_24_k34vky.png",
+      "isFavourite": false,
+      "publishDate": "November 15, 2010"
+    },
+    {
+      "id": 25,
+      "name": "Coders at Work: Reflections on the Craft of Programming",
+      "author": "Peter Seibel",
+      "rating": 3,
+      "price": 100,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510478/Assignment-2/IMG/Book_25_n2emq8.png",
+      "isFavourite": false,
+      "publishDate": "September 1, 2009"
+    },
+    {
+      "id": 26,
+      "name": "The Art of Computer Programming, Volume 1: Fundamental Algorithms",
+      "author": "Donald Ervin Knuth",
+      "rating": 4,
+      "price": 72,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510478/Assignment-2/IMG/Book_26_uoly9u.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1973"
+    },
+    {
+      "id": 27,
+      "name": "The Algorithm Design Manual",
+      "author": "Steven S. Skiena",
+      "rating": 4,
+      "price": 87,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510479/Assignment-2/IMG/Book_27_nud7gm.png",
+      "isFavourite": false,
+      "publishDate": "November 14, 1997"
+    },
+    {
+      "id": 28,
+      "name": "Automate the Boring Stuff with Python: Practical Programming for Total Beginners",
+      "author": "Al Sweigart",
+      "rating": 5,
+      "price": 76,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510479/Assignment-2/IMG/Book_28_pcggtl.png",
+      "isFavourite": true,
+      "publishDate": "November 25, 2014"
+    },
+    {
+      "id": 29,
+      "name": "The C++ Programming Language",
+      "author": "Bjarne Stroustrup",
+      "rating": 3,
+      "price": 66,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510481/Assignment-2/IMG/Book_29_nf4ztr.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1986"
+    },
+    {
+      "id": 30,
+      "name": "Learn You a Haskell for Great Good!",
+      "author": "Miran Lipovača",
+      "rating": 3,
+      "price": 21,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510479/Assignment-2/IMG/Book_30_ut2nkf.png",
+      "isFavourite": false,
+      "publishDate": "March 1, 2011"
+    },
+    {
+      "id": 31,
+      "name": "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability",
+      "author": "Steve Krug",
+      "rating": 4,
+      "price": 49,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510480/Assignment-2/IMG/Book_31_w8o5yv.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 2000"
+    },
+    {
+      "id": 32,
+      "name": "Growing Object-Oriented Software, Guided by Tests",
+      "author": "Steve  Freeman",
+      "rating": 4,
+      "price": 74,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510480/Assignment-2/IMG/Book_32_muti3x.png",
+      "isFavourite": false,
+      "publishDate": "October 1, 2009"
+    },
+    {
+      "id": 33,
+      "name": "Fluent Python: Clear, Concise, and Effective Programming",
+      "author": "Luciano Ramalho",
+      "rating": 4,
+      "price": 94,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510481/Assignment-2/IMG/Book_33_u21k3z.png",
+      "isFavourite": false,
+      "publishDate": "January 25, 2015"
+    },
+    {
+      "id": 34,
+      "name": "Building Microservices: Designing Fine-Grained Systems",
+      "author": "Sam Newman",
+      "rating": 3,
+      "price": 44,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510481/Assignment-2/IMG/Book_34_bnudlc.png",
+      "isFavourite": false,
+      "publishDate": "December 25, 2014"
+    },
+    {
+      "id": 35,
+      "name": "Learning Python",
+      "author": "Mark Lutz",
+      "rating": 4,
+      "price": 84,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510481/Assignment-2/IMG/Book_35_dklltz.png",
+      "isFavourite": false,
+      "publishDate": "July 24, 2013"
+    },
+    {
+      "id": 36,
+      "name": "Pro Git",
+      "author": "Scott Chacon",
+      "rating": 4,
+      "price": 44,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510483/Assignment-2/IMG/Book_36_atpcbh.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 2009"
+    },
+    {
+      "id": 37,
+      "name": "Peopleware: Productive Projects and Teams",
+      "author": "Tom DeMarco",
+      "rating": 4,
+      "price": 86,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510486/Assignment-2/IMG/Book_37_skc9uz.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1987"
+    },
+    {
+      "id": 38,
+      "name": "Python Crash Course: A Hands-On, Project-Based Introduction to Programming",
+      "author": "Eric Matthes",
+      "rating": 4,
+      "price": 48,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510487/Assignment-2/IMG/Book_38_lmeidp.png",
+      "isFavourite": false,
+      "publishDate": "February 25, 2015"
+    },
+    {
+      "id": 39,
+      "name": "A Philosophy of Software Design",
+      "author": "John Ousterhout",
+      "rating": 4,
+      "price": 56,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510486/Assignment-2/IMG/Book_39_ex9tlu.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 2018"
+    },
+    {
+      "id": 40,
+      "name": "The Practice of Programming",
+      "author": "Brian W. Kernighan",
+      "rating": 4,
+      "price": 52,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510482/Assignment-2/IMG/Book_40_svzx40.png",
+      "isFavourite": false,
+      "publishDate": "February 9, 1999"
+    },
+    {
+      "id": 41,
+      "name": "Effective C++: 55 Specific Ways to Improve Your Programs and Designs",
+      "author": "Scott Meyers",
+      "rating": 4,
+      "price": 75,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510482/Assignment-2/IMG/Book_41_vhw3xd.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1991"
+    },
+    {
+      "id": 42,
+      "name": "Algorithms",
+      "author": "Robert Sedgewick",
+      "rating": 3,
+      "price": 63,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510483/Assignment-2/IMG/Book_42_hcr8m8.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1983"
+    },
+    {
+      "id": 43,
+      "name": "The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win",
+      "author": "Gene Kim",
+      "rating": 4,
+      "price": 39,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510485/Assignment-2/IMG/Book_43_hazvdm.png",
+      "isFavourite": false,
+      "publishDate": "January 10, 2013"
+    },
+    {
+      "id": 44,
+      "name": "The Little Schemer",
+      "author": "Daniel P. Friedman",
+      "rating": 4,
+      "price": 89,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510485/Assignment-2/IMG/Book_44_g1h01z.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1974"
+    },
+    {
+      "id": 45,
+      "name": "Release It!: Design and Deploy Production-Ready Software",
+      "author": "Michael T. Nygard",
+      "rating": 4,
+      "price": 62,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510484/Assignment-2/IMG/Book_45_c5vppp.png",
+      "isFavourite": false,
+      "publishDate": "March 30, 2007"
+    },
+    {
+      "id": 46,
+      "name": "JavaScript: The Definitive Guide",
+      "author": "David Flanagan",
+      "rating": 4,
+      "price": 63,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510483/Assignment-2/IMG/Book_46_i2brgv.png",
+      "isFavourite": false,
+      "publishDate": "January 1, 1996"
+    },
+    {
+      "id": 47,
+      "name": "Java Concurrency in Practice",
+      "author": "Brian Goetz",
+      "rating": 4,
+      "price": 85,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510487/Assignment-2/IMG/Book_47_nv7g8q.png",
+      "isFavourite": false,
+      "publishDate": "May 19, 2005"
+    },
+    {
+      "id": 48,
+      "name": "CONTINUOUS DELIVERY",
+      "author": "Jez Humble",
+      "rating": 4,
+      "price": 59,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510484/Assignment-2/IMG/Book_48_bknk5u.png",
+      "isFavourite": false,
+      "publishDate": "July 27, 2010"
+    },
+    {
+      "id": 49,
+      "name": "Extreme Programming Explained: Embrace Change",
+      "author": "Kent Beck",
+      "rating": 4,
+      "price": 58,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510485/Assignment-2/IMG/Book_49_b8rwsg.png",
+      "isFavourite": false,
+      "publishDate": "October 5, 1999"
+    },
+    {
+      "id": 50,
+      "name": "Head First Java",
+      "author": "Kathy Sierra",
+      "rating": 4,
+      "price": 49,
+      "image": "https://res.cloudinary.com/dgi1ifmcp/image/upload/v1705510488/Assignment-2/IMG/Book_50_irgukq.png",
+      "isFavourite": false,
+      "publishDate": "May 1, 2006"
+    }
+  ]
+}
